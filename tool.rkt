@@ -8,7 +8,7 @@
          net/url)
 
 (define the-url
-  (string->url "http://www.eecs.northwestern.edu/~jesse/tmp/pull-tool.rkt"))
+  (string->url "http://users.eecs.northwestern.edu/~jesse/tmp/pull-tool.rkt"))
 
 (define-local-member-name fetch-code)
 
