@@ -1,21 +1,8 @@
 #lang racket
 
-#|
-
-If there is some kind of network error, the error message
-is treated as the downloaded program (see with-handlers below).
-
-Perhaps this is not optimal....
-
-there is also no way to abort the attempt or provide progress
-information when things are going slowly.
-
-|#
-
 (provide tool@)
 (require drracket/tool
          framework
-         mrlib/switchable-button
          racket/runtime-path
          racket/gui/base
          net/url)
