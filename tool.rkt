@@ -20,7 +20,8 @@ information when things are going slowly.
          racket/gui/base
          net/url)
 
-(define the-url (string->url "http://www.eecs.northwestern.edu/~robby/tmp/x.rkt"))
+(define the-url
+  (string->url "http://www.eecs.northwestern.edu/~jesse/tmp/pull-tool.rkt"))
 
 (define-local-member-name fetch-code)
 
